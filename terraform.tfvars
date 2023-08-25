@@ -1,0 +1,8 @@
+region = "eu-west-3"
+vpc_cidr_block = "10.0.0.0/16"
+subnet_1_cidr_block = "10.0.10.0/24"
+avail_zone = "eu-west-3b"
+env_prefix = "dev"
+my_ip ="13.38.106.125/32"
+instance_type = "t3.medium"
+public_key_location = "/home/ubuntu/.ssh/authorized_keys"

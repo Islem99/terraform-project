@@ -3,5 +3,3 @@
 *.tfstate
 *.tfstate.*
 
-*.tfvars
-
