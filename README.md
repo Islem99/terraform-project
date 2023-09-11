@@ -24,6 +24,11 @@ Une fois que les prérequis sont installés, nous entamons l'écriture du code, 
  Nous pouvons également définir nos variables directement dans les fichiers Terraform (*.tf) mais le plus recommandé pour générer des variables Terraform, nous devons les définir dans un fichier de configuration avec l'extension .tfvars (par exemple, variables.tfvars) pour définir nos variables. Nous pouvons utiliser ce fichier pour stocker toutes vos variables spécifiques à un  environnement ou à un scénario particulier.
 
 
+ Pour générer une paire de clés SSH (clé publique et clé privée), nous pouvons utiliser la commande: 
+
+`ssh-keygen -t rsa -f ~/.ssh/ma_cle`  -t pour spécifier le type de clé (par défaut RSA), et l'option -f pour indiquer le nom du fichier où la clé sera enregistrée.
+
+
 ## Lancement de Terraform
 
  Initialisation
