@@ -25,8 +25,20 @@ Une fois que les prérequis sont installés, nous entamons l'écriture du code, 
 
 ## Création d'un utilisateur IAM et une clé d'accès
 
-Choisir le service IAM et qliquer sur créer un utilisateur
+### Un utilisateur IAM
+1- Choisir le service IAM et cliquer sur créer un utilisateur
 ![1](/uploads/b6c57451b858d68091f5a6d479e1ae32/1.PNG)
+
+2-Spécifier les détails de l'utilisateur 
+![2](/uploads/032f128dfae4a0423c77ec3533afa275/2.PNG)
+
+3-Choisir `l'option Attacher directementdes politiques` et choisir `AdministratorAcces` comme politique d'autorisation
+![3](/uploads/c87f9692cc6254d1692eba57c40668bd/3.PNG)
+
+4- Vérifier et cliquer sur `Créer un utilisateur`
+![4](/uploads/50e99415d86c6b748ae1662b7e27c158/4.PNG)
+
+
 
  Pour générer une paire de clés SSH (clé publique et clé privée), nous pouvons utiliser la commande: 
 
