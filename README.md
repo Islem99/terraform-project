@@ -38,6 +38,22 @@ Une fois que les prérequis sont installés, nous entamons l'écriture du code, 
 4- Vérifier et cliquer sur `Créer un utilisateur`
 ![4](/uploads/50e99415d86c6b748ae1662b7e27c158/4.PNG)
 
+### Clé d'accès
+
+1- Cliquer l'utilisateur crée et choisir l'onglet `Informations d'identification de sécurité`
+![5](/uploads/b61bb064eb63446beda2fba0dead4f95/5.PNG)
+
+2- Cliquer sur créer une clé d'accès 
+![6](/uploads/fb72b47652b26a278a0d39edfeb123a5/6.PNG)
+
+3- Choisir `Interface de ligne de commande (CLI)` 
+![7](/uploads/79f101d0ce16ea8eaae089fbbcc75c40/7.PNG)
+
+4- Définir une identification de la description 
+![8](/uploads/1e174c4337d800545bd6ec97971fa04c/8.PNG)
+ 
+ 5- Télécharger le fichier .csv
+![9](/uploads/7ca9015ae56f0ed821ae43e92db4ac83/9.PNG)
 
 
  Pour générer une paire de clés SSH (clé publique et clé privée), nous pouvons utiliser la commande: 
