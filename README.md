@@ -55,8 +55,9 @@ Une fois que les prérequis sont installés, nous entamons l'écriture du code, 
  5- Télécharger le fichier .csv
 ![9](/uploads/7ca9015ae56f0ed821ae43e92db4ac83/9.PNG)
 
+Revenir au terminal et taper la commande `aws configure` et taper la clé d'accès et la clé d'accès secrète
 
- Pour générer une paire de clés SSH (clé publique et clé privée), nous pouvons utiliser la commande: 
+Générer une paire de clés SSH (clé publique et clé privée) en utilisant la commande: 
 
 `ssh-keygen -t rsa -f ~/.ssh/ma_cle`  -t pour spécifier le type de clé (par défaut RSA), et l'option -f pour indiquer le nom du fichier où la clé sera enregistrée.
 
