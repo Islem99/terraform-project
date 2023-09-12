@@ -23,6 +23,7 @@ Une fois que les prérequis sont installés, nous entamons l'écriture du code, 
 
  Nous pouvons également définir nos variables directement dans les fichiers Terraform (*.tf) mais le plus recommandé pour générer des variables Terraform, nous devons les définir dans un fichier de configuration avec l'extension .tfvars (par exemple, variables.tfvars) pour définir nos variables. Nous pouvons utiliser ce fichier pour stocker toutes vos variables spécifiques à un  environnement ou à un scénario particulier.
 
+## Création d'un utilisateur IAM et une clé d'accès
 
  Pour générer une paire de clés SSH (clé publique et clé privée), nous pouvons utiliser la commande: 
 
