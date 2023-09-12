@@ -140,3 +140,12 @@ resource "aws_key_pair" "ssh-key" {
   key_name   = "server-key"  # Nom de la clé SSH
   public_key = "${file(var.public_key_location)}"  # Emplacement de la clé publique sur le disque
 }
+
+resource "aws_eip" "elasticip" {
+  instance = aws_instance.myapp-server.id
+
+}
+
+output "EIP"{
+  value = aws_eip.elasticip.public_ip
+}
